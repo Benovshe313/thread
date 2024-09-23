@@ -41,7 +41,9 @@ class Program
                 if (option > 0 && option <= folders.Length)
                 {
                     var choosenFolder = folders[option - 1];
-                    exploreFolder(choosenFolder);
+                    Thread exploreFolderThread = new Thread(() => exploreFolder(choosenFolder));
+                    exploreFolderThread.Start();
+                    exploreFolderThread.Join();
                 }
                 else if (option > folders.Length && option < rowNum)
                 {

@@ -12,3 +12,4 @@ C:\Users\User\source\repos\thread\thread\obj\Debug\net8.0\refint\thread.dll
 C:\Users\User\source\repos\thread\thread\obj\Debug\net8.0\thread.pdb
 C:\Users\User\source\repos\thread\thread\obj\Debug\net8.0\thread.genruntimeconfig.cache
 C:\Users\User\source\repos\thread\thread\obj\Debug\net8.0\ref\thread.dll
+C:\Users\User\source\repos\thread\thread\obj\Debug\net8.0\thread.sourcelink.json
